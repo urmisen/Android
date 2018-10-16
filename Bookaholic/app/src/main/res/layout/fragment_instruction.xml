@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.bookaholic.InstructionFragment">
+
+    <TextView
+        android:layout_height="51dp"
+        android:layout_width="172dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:text=" Instructions"
+        android:layout_marginTop="44dp"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_height="95dp"
+        android:layout_width="350dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        android:text="If you've done with your reading,start answering required questions based on tyyhat book."
+        android:id="@+id/textView4"
+        android:layout_marginTop="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        android:text="A name of book,article or any reading materials will be given as challanges."
+        android:layout_above="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:textSize="22sp"
+        android:textColor="@color/colorPrimary"
+        android:text="Points or  scores will differ from questions to questions."
+        android:layout_alignTop="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+</RelativeLayout>

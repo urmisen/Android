@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.bookaholic.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_span="2"
+        android:textColor="#000"
+        android:text="Logic will get You A to B"
+        android:textSize="22sp"
+        android:id="@+id/welcome"
+        android:gravity="center"
+        android:layout_marginBottom="42dp"
+        android:layout_alignBottom="@+id/titel"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_span="2"
+        android:textColor="#000"
+        android:text="Imagination will take you everywhere"
+        android:textSize="22sp"
+        android:id="@+id/titel"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_span="2"
+        android:textColor="#000"
+        android:text="ALBERT EINSTIEN"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/titel"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

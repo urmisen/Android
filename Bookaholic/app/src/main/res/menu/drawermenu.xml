@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/home" android:title="Home" android:icon="@drawable/ic_8"></item>
+    <item android:id="@+id/db" android:title="Start New" android:icon="@drawable/ic_1"></item>
+    <item android:id="@+id/db1" android:title="Feedback" android:icon="@drawable/ic_4"></item >
+    <item android:id="@+id/db2" android:title="Score Board" android:icon="@drawable/ic_7"></item>
+    <item android:id="@+id/db3" android:title="Instructions" android:icon="@drawable/ic_6"></item>
+    <item android:id="@+id/db4" android:title="Challenge" android:icon="@drawable/ic_2"></item>
+    <item android:id="@+id/db5" android:title="Prizes" android:icon="@drawable/ic_5"></item>
+    <item android:id="@+id/db6" android:title="Settings" android:icon="@drawable/ic_3"></item>
+        <item android:id="@+id/db7" android:title="About us" android:icon="@drawable/ic_3"></item>
+</group>
+
+</menu>

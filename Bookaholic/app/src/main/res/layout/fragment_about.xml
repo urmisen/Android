@@ -1,0 +1,126 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.bookaholic.AboutFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_height="51dp"
+        android:layout_width="172dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:text=" About us"
+        android:layout_marginTop="48dp"
+        android:id="@+id/textView3"
+        android:layout_marginRight="80dp"
+        android:layout_marginEnd="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4"
+        />
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:padding="5dp"
+        android:text="This application is an initiative by some booklover CS students.Actually the app is more likely a game or a quiz app.User can get rewards by playing quiz and selecting the books.This app is an inspiration for reading books and upgrading the thinking level of mind.The developer team believes that this app will bring that old Bangladesh Pathchokro culture again and will make the country brighter like golden again."
+        android:id="@+id/textView4"
+        android:layout_marginTop="00dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:padding="5dp"
+            android:text="Developers :"
+            android:id="@+id/textView5"
+            android:layout_marginTop="00dp"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:padding="5dp"
+            android:text="Sadia Kabir Dina"
+            android:id="@+id/textView6"
+            android:layout_marginTop="00dp"
+            android:layout_below="@+id/textView5"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:padding="5dp"
+            android:text="Sumaiya Chowdhury Anika"
+            android:id="@+id/textView7"
+            android:layout_marginTop="00dp"
+            android:layout_below="@+id/textView6"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:padding="5dp"
+            android:text="Urmi Sen"
+            android:id="@+id/textView8"
+            android:layout_marginTop="00dp"
+            android:layout_below="@+id/textView7"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:padding="5dp"
+            android:text="Mohd.Ruhul Ameen"
+            android:id="@+id/textView9"
+            android:layout_marginTop="00dp"
+            android:layout_below="@+id/textView8"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:padding="5dp"
+            android:text="Shahad Mahmud Chowdhury"
+            android:id="@+id/textView10"
+            android:layout_marginTop="00dp"
+            android:layout_below="@+id/textView9"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:padding="5dp"
+            android:text="For any need,Please mail us :"
+            android:id="@+id/textView11"
+            android:layout_marginTop="00dp"
+            android:layout_below="@+id/textView10"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:padding="5dp"
+            android:text="bookaholic101@gmail.com"
+            android:id="@+id/textView12"
+            android:layout_marginTop="00dp"
+            android:layout_below="@+id/textView11"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</ScrollView>
